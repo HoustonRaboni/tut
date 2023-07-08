@@ -15,9 +15,15 @@ function fix_names ($n1,$n2,$n3){
     return $n1." " . $n2 ." " . $n3;
 }
 
+function myFun (){
+    return "my fuction";
+}
+
 echo function_exists("array_combine");
 print function_exists("phpinfo")."<br>";
 print phpversion();
+$sound = myFun();
+echo $sound;
 
 ?>
 
